@@ -1,0 +1,35 @@
+{
+    "cooler_model": "TSR-4225",
+    "area_m2": 0.11,
+    "sample_pressure_drop_model": {
+        "coefficients": [
+            1493.4985487306835,
+            122550.9888163562
+        ],
+        "intercept": -5.037513547183664,
+        "r2": 0.999994776698082,
+        "feature_names": [
+            "flow_kg_s",
+            "flow_kg_s^2"
+        ]
+    },
+    "cooling_water_pressure_drop": 20955,
+    "degree": 2,
+    "include_bias": false,
+    "feature_names": [
+        "m_dot_h",
+        "T_h_in",
+        "m_dot_h^2",
+        "m_dot_h T_h_in",
+        "T_h_in^2"
+    ],
+    "coefficients": [
+        -93.34690000028702,
+        0.008314313532288002,
+        1213.0495412479258,
+        -0.14586245077269702,
+        -1.4300770945392671e-05
+    ],
+    "intercept": 3.619859155029532,
+    "r2": 0.9721577674567699
+}

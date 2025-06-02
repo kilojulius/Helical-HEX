@@ -1,0 +1,35 @@
+{
+    "cooler_model": "TRW-4222",
+    "area_m2": 0.11,
+    "sample_pressure_drop_model": {
+        "coefficients": [
+            2496.6490789898694,
+            88926.5166974942
+        ],
+        "intercept": 4.816426234053068,
+        "r2": 0.9999822353023308,
+        "feature_names": [
+            "flow_kg_s",
+            "flow_kg_s^2"
+        ]
+    },
+    "cooling_water_pressure_drop": 6985,
+    "degree": 2,
+    "include_bias": false,
+    "feature_names": [
+        "m_dot_h",
+        "T_h_in",
+        "m_dot_h^2",
+        "m_dot_h T_h_in",
+        "T_h_in^2"
+    ],
+    "coefficients": [
+        -58.984633050794635,
+        0.008542555790505607,
+        364.74316110917164,
+        -0.28321911738480776,
+        -7.779124628909048e-06
+    ],
+    "intercept": 3.5110014253224477,
+    "r2": 0.9889236405656459
+}
